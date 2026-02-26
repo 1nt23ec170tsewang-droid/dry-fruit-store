@@ -52,7 +52,7 @@ export const AuthProvider = ({ children }) => {
         error.message?.includes('timeout') ||
         !error.response
       ) {
-        message = 'Cannot connect to server. Please make sure the backend server is running on port 5000.';
+      
       } else if (error.response?.data?.error) {
         message = error.response.data.error;
       } else if (error.message) {
@@ -89,7 +89,7 @@ export const AuthProvider = ({ children }) => {
         error.message?.includes('timeout') ||
         !error.response
       ) {
-        message = 'Cannot connect to server. Please make sure the backend server is running on port 5000.';
+      
       } else if (error.response?.data?.error) {
         message = error.response.data.error;
       } else if (error.message) {
@@ -122,5 +122,6 @@ export const AuthProvider = ({ children }) => {
     </AuthContext.Provider>
   );
 };
+
 
 
