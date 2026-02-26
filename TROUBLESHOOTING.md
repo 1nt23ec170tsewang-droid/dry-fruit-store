@@ -21,7 +21,7 @@ npm run dev
 
 **Expected output:**
 - Frontend: `Local: http://localhost:5173/`
-- Backend: `Server running on http://localhost:5000`
+- Backend: `Server running on https://dry-fruit-store.onrender.com
 
 ### Issue 3: Port Already in Use
 
@@ -81,7 +81,7 @@ CORS_ORIGIN=http://localhost:5173
 
 **Create `client/.env`:**
 ```env
-VITE_API_BASE_URL=http://localhost:5000
+VITE_API_BASE_URL=https://dry-fruit-store.onrender.com
 VITE_RAZORPAY_KEY_ID=rzp_test_xxxxx
 ```
 
@@ -161,4 +161,5 @@ If you're still stuck, share:
 2. Error message from browser console (F12)
 3. What happens when you try to open the app
 4. Which step you're on (starting server, opening browser, etc.)
+
 
