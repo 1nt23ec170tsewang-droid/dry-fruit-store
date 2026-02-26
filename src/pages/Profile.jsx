@@ -18,7 +18,7 @@ const Profile = () => {
 
   useEffect(() => {
     if (user.email) {
-      fetch(`http://localhost:5000/api/orders/user/${user.email}`)
+      fetch(`https://dry-fruit-store.onrender.com/api/orders/user/${user.email}`)
         .then((res) => res.json())
         .then((data) => {
           if (data.success && Array.isArray(data.orders)) {
@@ -206,5 +206,6 @@ const Profile = () => {
     </div>
   );
 };
+
 
 export default Profile;
