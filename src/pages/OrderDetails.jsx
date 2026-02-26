@@ -13,7 +13,7 @@ const OrderDetails = ({ orders: propsOrders }) => {
   useEffect(() => {
     // If id exists in URL, fetch specific order. Otherwise, find it in props.
     if (id) {
-      fetch(`http://localhost:5000/api/orders/${id}`)
+      fetch(https://dry-fruit-store.onrender.com/api/orders/${id}`)
         .then(res => res.json())
         .then(data => setOrder(data.order || data))
         .catch(err => console.error("Error fetching order:", err));
@@ -227,5 +227,6 @@ const OrderCard = ({ order, addToCart, isDetailView }) => {
     </div >
   );
 };
+
 
 export default OrderDetails;
