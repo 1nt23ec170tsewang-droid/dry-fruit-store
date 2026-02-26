@@ -89,7 +89,7 @@ CORS_ORIGIN=http://localhost:5173
 Create a `.env` file in the `client/` directory:
 
 ```env
-VITE_API_BASE_URL=http://localhost:5000
+VITE_API_BASE_URL=[https://dry-fruit-store.onrender.com]
 VITE_RAZORPAY_KEY_ID=your_razorpay_key_id_here
 ```
 
@@ -319,4 +319,5 @@ For issues or questions:
 ---
 
 **Built with ❤️ for Ladakh Dry Fruits Store**
+
 
