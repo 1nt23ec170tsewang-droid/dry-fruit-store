@@ -1,0 +1,17 @@
+{
+  "name": "ladakh-dry-fruits-server",
+  "version": "1.0.0",
+  "description": "Backend API for Ladakh Dry Fruits Store",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.22.1",
+    "razorpay": "^2.9.6"
+  }
+}
