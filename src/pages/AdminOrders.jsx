@@ -6,7 +6,7 @@ import {
   Tag, Info, User, Search, Filter, AlertCircle, TrendingUp
 } from 'lucide-react';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || (import.meta.env.DEV ? '' : 'http://localhost:5000');
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || (import.meta.env.DEV ? '' : 'https://dry-fruit-store.onrender.com');
 
 const AdminOrders = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -269,5 +269,6 @@ const filteredOrders = orders.filter(order => {
     </div>
   );
 };
+
 
 export default AdminOrders;
