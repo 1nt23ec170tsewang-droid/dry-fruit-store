@@ -45,7 +45,7 @@ Then open: **http://localhost:5173**
 
 ## What Should Happen?
 
-1. ✅ Backend terminal shows: "Server running on http://localhost:5000"
+1. ✅ Backend terminal shows: "Server running on https://dry-fruit-store.onrender.com"
 2. ✅ Frontend terminal shows: "Local: http://localhost:5173/"
 3. ✅ Browser opens and shows the Ladakh Dry Fruits Store homepage
 
@@ -92,5 +92,6 @@ Then open: **http://localhost:5173**
 ## Need More Help?
 
 See `TROUBLESHOOTING.md` for detailed solutions.
+
 
 
