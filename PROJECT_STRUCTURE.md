@@ -122,7 +122,7 @@ CORS_ORIGIN=http://localhost:5173
 
 ### Frontend (.env in client/)
 ```env
-VITE_API_BASE_URL=http://localhost:5000
+VITE_API_BASE_URL=https://dry-fruit-store.onrender.com
 VITE_RAZORPAY_KEY_ID=your_key_id
 ```
 
@@ -154,4 +154,5 @@ VITE_RAZORPAY_KEY_ID=your_key_id
 - PWA icons (pwa-192x192.png, pwa-512x512.png) need to be added to `client/public/`
 - Admin password is hardcoded in `AdminOrders.jsx` - change for production
 - Orders stored in JSON file - migrate to database for production
+
 
