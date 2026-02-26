@@ -55,7 +55,7 @@
    - Add this content:
 
    ```env
-   VITE_API_BASE_URL=http://localhost:5000
+   VITE_API_BASE_URL=https://dry-fruit-store.onrender.com
    VITE_RAZORPAY_KEY_ID=rzp_test_xxxxxxxxxxxxx
    ```
 
@@ -177,4 +177,5 @@ If you're still having issues:
 2. Check browser console (F12) for errors
 3. Verify both `.env` files exist and have correct format
 4. Make sure both servers are running
+
 
