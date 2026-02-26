@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Backend API base URL
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://dry-fruit-store.onrender.com';
 
 /**
  * Create an order (COD or UPI)
@@ -27,4 +27,5 @@ export const createOrder = async (orderData) => {
     throw new Error('Failed to create order. Please try again.');
   }
 };
+
 
