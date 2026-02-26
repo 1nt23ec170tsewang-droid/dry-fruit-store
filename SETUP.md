@@ -52,7 +52,7 @@ cp .env.example .env    # Mac/Linux
 
 3. Edit `.env`:
 ```env
-VITE_API_BASE_URL=http://localhost:5000
+VITE_API_BASE_URL=https://dry-fruit-store.onrender.com
 VITE_RAZORPAY_KEY_ID=rzp_test_xxxxxxxxxxxxx
 ```
 
@@ -111,4 +111,5 @@ npm run dev
 - Check `docs/ui-mockups.md` for design details
 - Replace placeholder product images with real photos
 - Update product data with actual prices
+
 
