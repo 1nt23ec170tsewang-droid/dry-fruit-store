@@ -14,7 +14,7 @@ cd server
 npm run dev
 ```
 
-**Wait for:** `Server running on http://localhost:5000`
+**Wait for:** `Server running on https://dry-fruit-store.onrender.com
 
 ### Step 3: Start Frontend Server
 
@@ -92,4 +92,5 @@ Then open: **http://localhost:5173**
 ## Need More Help?
 
 See `TROUBLESHOOTING.md` for detailed solutions.
+
 
