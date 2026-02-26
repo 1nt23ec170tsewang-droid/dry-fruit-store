@@ -20,8 +20,8 @@ npm run dev
 
 **You should see:**
 ```
-🚀 Server running on http://localhost:5000
-📦 API endpoints available at http://localhost:5000/api
+🚀 Server running on https://dry-fruit-store.onrender.com
+📦 API endpoints available at https://dry-fruit-store.onrender.com/api
 ⚠️  Make sure to set RAZORPAY_KEY_ID and RAZORPAY_KEY_SECRET in .env file
 ```
 
@@ -72,4 +72,5 @@ Both must be running for the app to work!
 - Make sure frontend is also running
 - Check browser console (F12) for errors
 - Verify backend URL in `client/.env` is `http://localhost:5000`
+
 
