@@ -22,7 +22,7 @@ CORS_ORIGIN=http://localhost:5173
 
 **Frontend** (`client/.env`):
 ```env
-VITE_API_BASE_URL=http://localhost:5000
+VITE_API_BASE_URL=[https://dry-fruit-store.onrender.com]
 VITE_RAZORPAY_KEY_ID=rzp_test_xxxxxxxxxxxxx
 ```
 
@@ -82,4 +82,5 @@ Use Razorpay test card:
 ---
 
 **Ready to go! 🏔️**
+
 
