@@ -35,10 +35,11 @@ export default defineConfig({
     open: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'http://dry-fruit-store.onrender.com',
         changeOrigin: true
       }
     }
   }
 });
+
 
