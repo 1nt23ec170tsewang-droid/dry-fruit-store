@@ -105,7 +105,7 @@ cd server
 npm run dev
 ```
 
-The backend will run on `http://localhost:5000`
+The backend will run on `https://dry-fruit-store.onrender.com
 
 **Terminal 2 - Frontend:**
 ```bash
@@ -319,5 +319,6 @@ For issues or questions:
 ---
 
 **Built with ❤️ for Ladakh Dry Fruits Store**
+
 
 
