@@ -12,8 +12,8 @@ npm run dev
 
 **You should see:**
 ```
-🚀 Server running on http://localhost:5000
-📦 API endpoints available at http://localhost:5000/api
+🚀 Server running on [https://dry-fruit-store.onrender.com]
+📦 API endpoints available at[https://dry-fruit-store.onrender.com]/api
 ```
 
 **If you see errors:**
@@ -157,4 +157,5 @@ npm run dev
 5. Copy Key ID and Key Secret
 
 **Note:** Test keys work only in test mode. For production, you'll need live keys.
+
 
