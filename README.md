@@ -1,6 +1,6 @@
-# Ladakh Dry Fruits Store - Backend Server
+# Ladakh Dry Fruits Store - Frontend Client
 
-Express.js backend API for the Ladakh Dry Fruits Store e-commerce application.
+React + Vite frontend for the Ladakh Dry Fruits Store e-commerce application.
 
 ## Setup
 
@@ -9,35 +9,33 @@ Express.js backend API for the Ladakh Dry Fruits Store e-commerce application.
 npm install
 ```
 
-2. Create a `.env` file (copy from `.env.example`):
-```bash
-cp .env.example .env
-```
-
-3. Add your Razorpay credentials to `.env`:
+2. Create a `.env` file:
 ```env
-RAZORPAY_KEY_ID=your_key_id_here
-RAZORPAY_KEY_SECRET=your_key_secret_here
-PORT=5000
-CORS_ORIGIN=http://localhost:5173
+VITE_API_BASE_URL=http://localhost:5000
+VITE_RAZORPAY_KEY_ID=your_razorpay_key_id_here
 ```
 
-4. Run the server:
+3. Run the development server:
 ```bash
-npm run dev    # Development mode with auto-reload
-npm start      # Production mode
+npm run dev
 ```
 
-## API Endpoints
+The app will be available at `http://localhost:5173`
 
-- `GET /api/health` - Health check
-- `POST /api/create-order` - Create Razorpay order
-- `POST /api/verify-signature` - Verify payment signature
-- `GET /api/orders` - Get all orders (for admin)
+## Build for Production
 
-## Notes
+```bash
+npm run build
+```
 
-- Orders are stored in `orders.json` file (for demo/testing only)
-- In production, replace with a proper database (MongoDB, PostgreSQL, etc.)
-- Make sure to set proper CORS origin for production
+The built files will be in the `dist/` directory.
+
+## Features
+
+- React Router for navigation
+- Tailwind CSS for styling
+- Cart management with React Context
+- Razorpay payment integration
+- Leaflet map for delivery areas
+- PWA support
 
